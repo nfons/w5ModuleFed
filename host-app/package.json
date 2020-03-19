@@ -1,0 +1,26 @@
+{
+  "name": "dep2",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "git://github.com/ScriptedAlchemy/html-webpack-plugin#master",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "webpack": "git://github.com/webpack/webpack.git#dev-1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "start": "npm run serve",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "raw-loader": "^4.0.0",
+    "css-loader": "^3.4.2",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
