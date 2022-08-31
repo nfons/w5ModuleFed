@@ -10,7 +10,7 @@
     "html-webpack-plugin": "git://github.com/ScriptedAlchemy/html-webpack-plugin#master",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-live-clock": "^4.0.3",
+    "react-live-clock": "^6.0.6",
     "webpack": "git://github.com/webpack/webpack.git#dev-1",
     "webpack-cli": "^3.3.11"
   },
